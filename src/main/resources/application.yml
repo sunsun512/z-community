@@ -1,0 +1,30 @@
+spring:
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/zaricommunity;
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  security:
+    user:
+      name: username
+      password: 1111
+
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+    root: info
+  file:
+    path: /Users/log/zaritalk-logback
+  max-size: 500MB
+  max-history: 10
+
