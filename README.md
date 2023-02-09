@@ -1,4 +1,4 @@
-# 은혜선 - 사전과제
+# 커뮤니티
 
 ### 사용기술
 - Java 8
@@ -7,14 +7,6 @@
 - Spring Security
 - H2 Database 
 
-### ERD
-![image](https://user-images.githubusercontent.com/100753335/217221028-74eee5a8-526a-47ec-8d0a-d18422005b4e.png)
-
-
-
-### Application Architecture
-![image](https://user-images.githubusercontent.com/100753335/217236892-4d7cf34e-c781-4a08-b6df-e55a43e9268c.png)
-되도록 Controller -> service -> Repository -> DB로 한 방향으로 흘러가게 구현하였습니다.
 
 ### 구현 기능
 
@@ -68,11 +60,4 @@ Service단과 Repository단은 Test Code를 작성해 검증하였고
 Postman을 통해 최종 확인하였습니다.
 ![image](https://user-images.githubusercontent.com/100753335/217235931-e9cbee22-3af6-4024-9108-66382b8e1701.png)
 
-
-
-#### 구현 못한 기술 사항
-![image](https://user-images.githubusercontent.com/100753335/217158917-3de33c43-b7e6-41f7-9ab3-66e304b6b8ba.png)
-
-Header에 Authorization에서 토큰을 가져와 사용자의 정보를 확인하는 기술 등은 확인해보았지만, Authorization에 사용자의 타입을 지정하는 것은 찾지 못했습니다.
-혹시 기회가 된다면 좀더 자세히 알고싶습니다..!!
 
