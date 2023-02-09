@@ -52,12 +52,5 @@
 - 응답 : 성공 - 게시물 Page 반환
 
 
-### Test by code & postman
-
-Service단과 Repository단은 Test Code를 작성해 검증하였고
-![image](https://user-images.githubusercontent.com/100753335/217235791-5b09c6b1-4818-446a-9862-d59bde8fcfc5.png)
-
-Postman을 통해 최종 확인하였습니다.
-![image](https://user-images.githubusercontent.com/100753335/217235931-e9cbee22-3af6-4024-9108-66382b8e1701.png)
 
 
